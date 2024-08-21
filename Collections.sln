@@ -3,9 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_CustomList", "List\001_CustomList\001_CustomList.csproj", "{051A896B-A464-44C2-AC4A-26FD5612F2D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_CustomList", "List\001_CustomList\001_CustomList.csproj", "{051A896B-A464-44C2-AC4A-26FD5612F2D4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "List", "List", "{50D02C8A-FF8A-44AF-A877-C49AEEBBAD65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{426166E5-AB7C-4BB6-A20A-D299BE0AAEE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{211A12D8-6F24-42CB-9C45-5136EB2D85D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hashset", "Hashset", "{8940C203-DADC-4954-B82B-CE945F2D28AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linked List", "Linked List", "{4CD9F8E7-E3D1-4324-9DF0-BF4839D9A3BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_Custom LinkedList", "LinkedList\001_Custom LinkedList\001_Custom LinkedList.csproj", "{3CD14462-F9CC-45C4-B789-DEC92E9AE21E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Custom HashSet", "HashSet\001_Custom HashSet\001_Custom HashSet.csproj", "{92416CA2-D250-47DE-B73E-4DA2275FE8DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +29,22 @@ Global
 		{051A896B-A464-44C2-AC4A-26FD5612F2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{051A896B-A464-44C2-AC4A-26FD5612F2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{051A896B-A464-44C2-AC4A-26FD5612F2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD14462-F9CC-45C4-B789-DEC92E9AE21E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD14462-F9CC-45C4-B789-DEC92E9AE21E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD14462-F9CC-45C4-B789-DEC92E9AE21E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD14462-F9CC-45C4-B789-DEC92E9AE21E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92416CA2-D250-47DE-B73E-4DA2275FE8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92416CA2-D250-47DE-B73E-4DA2275FE8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92416CA2-D250-47DE-B73E-4DA2275FE8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92416CA2-D250-47DE-B73E-4DA2275FE8DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{051A896B-A464-44C2-AC4A-26FD5612F2D4} = {50D02C8A-FF8A-44AF-A877-C49AEEBBAD65}
+		{3CD14462-F9CC-45C4-B789-DEC92E9AE21E} = {4CD9F8E7-E3D1-4324-9DF0-BF4839D9A3BF}
+		{92416CA2-D250-47DE-B73E-4DA2275FE8DD} = {8940C203-DADC-4954-B82B-CE945F2D28AB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67F71546-4F8B-4E2E-A69C-F6D7FFA42109}
